@@ -26,7 +26,8 @@ st.markdown("""
 # 🎯 Titel & aktueller Stand
 st.title("❤️ Hello my love")
 st.write("📜 **Whispered hints**: " + ", ".join(st.session_state.geraten))
-st.write("Note: You must first press Enter to confirm your entry and Abracadabra to display the entry")
+st.write("Laptop: You must first press Enter to confirm your entry and Abracadabra to display the entry.")
+st.write("On mobile: Tap Abracadabra twice to see letter")
 st.text("".join(st.session_state.anzeige))
 #st.write("There is a slider with which you can hover over the message")
 
