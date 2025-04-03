@@ -28,7 +28,7 @@ st.title("❤️ Hello my love")
 st.write("📜 **Whispered hints**: " + ", ".join(st.session_state.geraten))
 st.write("Note: You must first press Enter to confirm your entry and Abracadabra to display the entry")
 st.text("".join(st.session_state.anzeige))
-st.write("There is a slider with which you can hover over the message")
+#st.write("There is a slider with which you can hover over the message")
 
 # ✍️ Eingabeformular
 with st.form("eingabe_formular", clear_on_submit=True):
